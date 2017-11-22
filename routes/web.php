@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mainpage/index', ['name' => 'World']);
+});
+
+Route::get('blade', function () {
+   return view('mainpage/index', ['name' => 'World']);
 });
