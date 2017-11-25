@@ -1,0 +1,17 @@
+.items {
+    list-style-type: none;
+}
+
+.item-parent {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more-collaborators-icon {
+    font-size: 9px;
+}
+
+.item-parent {
+    font-size: 17px;
+}
