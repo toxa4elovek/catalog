@@ -168,3 +168,6 @@ Route::get('positions', function() {
         echo $item['id'] . ' = ' . $item['name'] . '<br>';
     }
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
