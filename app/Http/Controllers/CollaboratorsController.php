@@ -151,7 +151,7 @@ class CollaboratorsController extends Controller
             $collaborator->delete();
         }
 
-        return redirect('collaborators');
+        return redirect('/collaborators');
     }
 
 

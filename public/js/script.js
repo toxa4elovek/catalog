@@ -205,7 +205,11 @@ $(document).ready(function () {
     })();
 
     $(document).on('click', '.collaborator-delete', function () {
-        alert('Выдействительно хотите удалить этого сотрудника?')
+        if(confirm('Выдействительно хотите удалить этого сотрудника?')) {
+            return true;
+        } else {
+            return false;
+        }
     });
 
 

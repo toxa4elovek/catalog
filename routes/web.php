@@ -13,6 +13,8 @@
 
 Route::get('/', 'MainController@collaborator');
 
+Route::post('/more-child', 'MainController@more_child');
+
 Route::match(['get', 'post'], '/collaborators', 'CollaboratorsController@index')->name('collaborators');
 
 Route::get('/positions-search', 'PositionsController@positions_search');
