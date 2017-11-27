@@ -16,4 +16,5 @@
 </div>
 @include('blocks.scripts')
 </body>
+@include('blocks.footer')
 </html>

@@ -1,4 +1,10 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/modules/datepicker.js": "/js/modules/datepicker.js",
+    "/js/modules/datepicker-ru.js": "/js/modules/datepicker-ru.js",
+    "/css/theme.css": "/css/theme.css",
+    "/css/datepicker.css": "/css/datepicker.css",
+    "/css/fileinput.css": "/css/fileinput.css",
+    "/js/locales/ru.js": "/js/locales/ru.js"
 }
